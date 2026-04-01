@@ -9,6 +9,11 @@
                     <include name="searchGoogle"/>
                 </methods>
             </class>
+            <class name="SeleniumTest">
+                <methods>
+                    <include name="searchGoogle"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>
