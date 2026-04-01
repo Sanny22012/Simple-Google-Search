@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-06T22:54:16 IST" name="Suite" finished-at="2026-02-06T22:54:25 IST" duration-ms="8965">
+  <suite started-at="2026-02-07T21:49:19 IST" name="Default suite" finished-at="2026-02-07T21:49:24 IST" duration-ms="5142">
     <groups>
     </groups>
-    <test started-at="2026-02-06T22:54:16 IST" name="Test" finished-at="2026-02-06T22:54:25 IST" duration-ms="8965">
+    <test started-at="2026-02-07T21:49:19 IST" name="Default test" finished-at="2026-02-07T21:49:24 IST" duration-ms="5142">
       <class name="SimpleGoogleSearch">
-        <test-method is-config="true" signature="setup()[pri:0, instance:SimpleGoogleSearch@3c73951]" started-at="2026-02-06T22:54:16 IST" name="setup" finished-at="2026-02-06T22:54:18 IST" duration-ms="1961" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:SimpleGoogleSearch@2b48a640]" started-at="2026-02-07T21:49:19 IST" name="setup" finished-at="2026-02-07T21:49:21 IST" duration-ms="1527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="searchGoogle()[pri:0, instance:SimpleGoogleSearch@3c73951]" started-at="2026-02-06T22:54:18 IST" name="searchGoogle" finished-at="2026-02-06T22:54:24 IST" duration-ms="6647" status="FAIL">
+        <test-method signature="searchGoogle()[pri:0, instance:SimpleGoogleSearch@2b48a640]" started-at="2026-02-07T21:49:21 IST" name="searchGoogle" finished-at="2026-02-07T21:49:24 IST" duration-ms="3388" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Search failed! expected [true] but found [false]]]>
@@ -54,11 +54,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchGoogle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:SimpleGoogleSearch@3c73951]" started-at="2026-02-06T22:54:24 IST" name="tearDown" finished-at="2026-02-06T22:54:25 IST" duration-ms="327" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:SimpleGoogleSearch@2b48a640]" started-at="2026-02-07T21:49:24 IST" name="tearDown" finished-at="2026-02-07T21:49:24 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- SimpleGoogleSearch -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
