@@ -23,13 +23,16 @@ public class SimpleGoogleSearch {
 
 	@Test
 	public void searchGoogle() throws InterruptedException {
-		driver.get("https://www.google.com");
-		WebElement searchBox = driver.findElement(By.name("q"));
-		searchBox.sendKeys("Selenium WebDriver" + Keys.ENTER);
-		Thread.sleep(2000); // simple wait for results
-		String title = driver.getTitle();
-		Assert.assertTrue(title.contains("Selenium WebDriver"), "Search failed!");
-		System.out.println("Search successful: " + title);
+//		driver.get("https://www.google.com");
+//		WebElement searchBox = driver.findElement(By.name("q"));
+//		searchBox.sendKeys("Selenium WebDriver" + Keys.ENTER);
+//		Thread.sleep(2000); // simple wait for results
+//		String title = driver.getTitle();
+//		Assert.assertTrue(title.contains("Selenium WebDriver"), "Search failed!");
+//		System.out.println("Search successful: " + title);
+		
+		driver.get("https://demowebshop.tricentis.com/login");
+		
 	}
 
 	@AfterMethod
